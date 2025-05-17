@@ -37,9 +37,9 @@
 
 ## Đóng góp
 Chúng tôi hoan nghênh mọi đóng góp từ cộng đồng để cải thiện module:
-- Báo cáo lỗi hoặc đề xuất tính năng mới bằng cách tạo [Issue](https://github.com/NCH2024/Zalo-Chat-Module-Joomla/issues).
+- Báo cáo lỗi hoặc đề xuất tính năng mới bằng cách tạo [Issue](https://github.com/lenhan1122/mod_rating_comment/issues).
 - Gửi yêu cầu kéo (Pull Request) nếu bạn muốn đóng góp mã nguồn.
-- Tham gia thảo luận và góp ý tại mục [Discussions](https://github.com/NCH2024/Zalo-Chat-Module-Joomla/discussions).
+- Tham gia thảo luận và góp ý tại mục [Discussions](https://github.com/lenhan1122/mod_rating_comment/discussions).
 
 ## Liên hệ
 Nếu bạn có bất kỳ câu hỏi hoặc cần hỗ trợ, vui lòng liên hệ qua:
