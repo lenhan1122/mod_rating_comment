@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="ajax" method="upgrade" version="3.9">
+    <name>plg_ajax_rating_comment</name>
+    <author>Your Name</author>
+    <version>1.0.0</version>
+    <description>Plugin xử lý AJAX cho module đánh giá và bình luận</description>
+    <files>
+        <filename plugin="rating_comment">rating_comment.php</filename>
+    </files>
+</extension>

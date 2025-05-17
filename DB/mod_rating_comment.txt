@@ -1,0 +1,10 @@
+CREATE TABLE `#__module_rating_comments` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `item_id` INT NOT NULL,
+  `user_id` INT DEFAULT NULL,
+  `name` VARCHAR(100) DEFAULT NULL,
+  `email` VARCHAR(150) DEFAULT NULL,
+  `comment` TEXT NOT NULL,
+  `comment_time` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

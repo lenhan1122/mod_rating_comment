@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade" xmlns="http://www.joomla.org/xml/ns/extensions/3.0">
+    <name>MOD_RATING_COMMENT</name>
+    <author>Nguyễn Nhật Hào, Lê Thanh Nhân</author>
+    <version>1.0.0</version>
+    <description>MOD_RATING_COMMENT_DESCRIPTION</description>
+
+    <files>
+        <filename module="mod_rating_comment">mod_rating_comment.php</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="item_id" type="text" default="" label="MOD_RATING_COMMENT_ITEM_ID_LABEL" description="MOD_RATING_COMMENT_ITEM_ID_DESC" />
+                <field name="show_rating" type="radio" default="1" label="MOD_RATING_COMMENT_SHOW_RATING_LABEL" description="MOD_RATING_COMMENT_SHOW_RATING_DESC">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="show_comments" type="radio" default="1" label="MOD_RATING_COMMENT_SHOW_COMMENTS_LABEL" description="MOD_RATING_COMMENT_SHOW_COMMENTS_DESC">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="allow_guest_comment" type="radio" default="0" label="MOD_RATING_COMMENT_ALLOW_GUEST_LABEL" description="MOD_RATING_COMMENT_ALLOW_GUEST_DESC">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.mod_rating_comment.ini</language>
+        <language tag="vi-VN">vi-VN/vi-VN.mod_rating_comment.ini</language>
+    </languages>
+</extension>
